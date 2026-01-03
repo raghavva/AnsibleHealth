@@ -18,15 +18,4 @@ Convert the provided meeting-notes markdown into a well-formatted Google Doc usi
 - OAuth client: Colab’s built-in flow works by default. If you prefer your own OAuth client, upload `client_secret.json` before running the auth cell.
 
 
-### Suggested repo steps
-- Create a new public GitHub repo, add `assessment.ipynb`, `process.md`, and this `README.md`, then push. Example:  
-  ```bash
-  git init
-  git add assessment.ipynb process.md README.md
-  git commit -m "Add Colab notebook for markdown to Google Doc"
-  git branch -M main
-  git remote add origin <your-repo-url>
-  git push -u origin main
-  ```
-
 
